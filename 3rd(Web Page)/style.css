@@ -1,0 +1,386 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+body {
+    display: block;
+    margin: 0px 0px 0px 0px;
+}
+table{
+    max-width: 1500px;
+    min-width: 350px;
+    height: 15px;
+    column-gap: 50px;
+}
+div.table{
+    background-color: rgba(43, 101, 189, 0.986);
+    
+}
+.white{
+    color: white;
+    font-size: 15px;
+}
+.link:hover{
+    background-color:  rgba(93, 149, 233, 0.925);
+}
+li.a {
+    display: inline;
+    margin-right: 25px;
+}
+td.button{
+    word-spacing: 2px;
+}
+td button{
+    color: rgba(7, 124, 52, 0.938);
+    height: 25px;
+    font-size: 12px;
+    border: 1px solid rgba(30, 197, 94, 0.938);
+}
+td
+{
+    padding:0 50px;
+}
+li{
+    display: inline;
+
+}
+img#saylani{
+    padding-left: 400px;
+    padding-right: 225px;
+    
+}
+ul#a{
+    display: inline;
+    
+}
+img.arrowl{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+img.arrowr{
+    position: absolute;
+    top: 400px;
+    right: 10px;
+}
+div.navbar{
+    padding-bottom: 0px;
+    background-color: rgb(248, 248, 248) ;
+    width: 1903px ;
+    position: fixed;
+}
+.dropbtna {
+    border-radius:30px ;
+    width: 50px ;
+    height: 20px;
+    padding: 10px;
+    padding-left:16px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dropbtnb {
+    border-radius:30px ;
+    width: 120px ;
+    height: 20px;
+    padding: 10px;
+    padding-left:16px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dropbtnc {
+    border-radius:30px ;
+    width: 100px ;
+    height: 20px;
+    padding: 10px;
+    padding-left:16px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dropbtnd {
+    border-radius:30px ;
+    width: 65px ;
+    height: 20px;
+    padding: 10px;
+    padding-left:16px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgba(116, 116, 117, 0.925);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgba(31, 95, 190, 0.986);
+    color: white;
+}  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtna {
+background-color:  rgba(31, 95, 190, 0.986);
+    color: white;
+}
+.dropdown:hover .dropbtnb {
+background-color:  rgba(31, 95, 190, 0.986);
+    color: white;
+}
+.dropdown:hover .dropbtnc {
+background-color:  rgba(31, 95, 190, 0.986);
+    color: white;
+}
+.dropdown:hover .dropbtnd {
+background-color:  rgba(31, 95, 190, 0.986);
+    color: white;
+}
+#linkh{
+    text-decoration: none;
+    background-color: rgba(31, 95, 190, 0.986) ;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+#link:hover{
+    background-color: rgba(31, 95, 190, 0.986) ;
+    color: white;
+}
+div.firsta{
+    text-align: center;
+    margin: 15px auto;
+}
+li.first{
+    background-color: rgba(43, 101, 189, 0.986) ;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+marquee.move{
+      background-color:rgba(43, 101, 189, 0.986) ;
+      color: white;
+    padding-top: 8px;
+}
+marquee.move strong{
+    color: lightgreen;
+}
+#slide{
+    color: blue;
+}
+div.intro{
+    background-color: rgb(248, 248, 248)  ;
+    text-align: center; 
+    padding: 30px 500px 100px 500px;
+}
+#blue{
+    color:rgba(31, 95, 190, 0.986);
+    font-family: 'Roboto Slab',serif;
+    font-size: 30px;
+}
+#green{
+    color: rgb(33, 105, 33);
+    font-family: 'Roboto Slab',serif;
+    font-size: 30px;
+}
+h2{
+    color: rgb(33, 105, 33) ;
+}
+p.j{
+    text-align: justify;
+    line-height: 30px;
+    color: rgba(116, 116, 117, 0.925);
+}
+#b{
+    background-color: rgb(38, 94, 214);
+    text-align: center;
+}
+li.b{
+    display: inline-block;
+    padding: 50px 20px 50px 20px;
+    color: white;
+    font-family:'Roboto Slab',serif;
+    
+}
+ul.ba{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li.b h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+}
+li.b b{
+    color: rgba(48, 245, 123, 0.938);
+}
+div.doing{
+    background-color: rgb(248, 248, 248)  ;
+    text-align: center; 
+    padding: 30px 500px 50px 500px;
+}
+table#doing{
+    border-spacing: 30px ;
+    position: relative;
+    top: 30px;
+    right: 70px;
+}
+.c{
+    padding: 20px 100px;
+    background-color: white;
+    box-shadow: 5px 10px 10px 5px lightgrey;
+    color: rgb(57, 110, 226);
+    font-size: 16px;
+    font-family: 'Roboto Slab',serif;
+    font-weight: bolder;
+}
+div.m{
+    height: 400px;
+}
+div.m h1{
+    font-size: 25px;
+    color:rgb(35, 99, 236) ;
+    font-family: 'Roboto Slab',serif;
+}
+div.m b{
+    color:rgb(33, 105, 33) ;
+}
+div.mission{
+    position: relative;
+    bottom: 180px;
+    left: 460px;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+}
+table#mission{
+    border-spacing:30px 20px  ;
+}
+.d{
+    background-color: rgb(248, 248, 248) ;
+    padding-left: 20px;
+    color: rgb(48, 95, 197);
+    font-family: 'Roboto Slab',serif;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    border: 1px solid rgb(235, 235, 235) ;
+}
+div.event{
+    height: 450px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    left: 500px;
+}
+marquee{
+    color:rgba(116, 116, 117, 0.925) ;
+}
+div.gallery{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+div.black{
+    height: 370px;
+    background-color: rgb(37, 37, 37);
+}
+div.x{
+    margin-left: 300px;
+    padding-top: 65px;
+    width: 430px;
+    height: 300px;
+    color: rgba(143, 143, 143, 0.925);
+    display: inline-block;
+}
+.phone{
+    background-image: url(images/call.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px ;
+}
+.mail{
+    background-image: url(images/envelope.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px ;
+}
+i{
+    padding-left: 20px;
+    background-image: url(images/symbol.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+
+}
+h3{
+    color: white;
+    font-family: 'Roboto Slab',serif;
+    font-size: 20px;
+    line-height: 15px;
+}
+h3 b{
+   color: rgba(26, 172, 82, 0.938);
+}
+div.y{
+    width: 430px;
+    display: inline-block;
+    position: relative;
+    bottom: 180px;
+}
+div.z{
+    display: inline-block;
+    position: relative;
+    bottom: 145px;
+}
+div.end{
+    color: white;
+    background-color:rgba(43, 101, 189, 0.986) ;
+}
+h6{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 370px;
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.top{
+    position: fixed;
+    right: 20px;
+    bottom: 30px ;
+}

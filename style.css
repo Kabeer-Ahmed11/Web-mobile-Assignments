@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp2848515.jpg);
+}
+h1 {
+    font-size: 100px;
+    color: rgb(70, 197, 206);
+}
+a{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    background-image: url(back.png) ;
+    background-size: 285px ;
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(108, 190, 41);
+    font-size: 200%;
+}
