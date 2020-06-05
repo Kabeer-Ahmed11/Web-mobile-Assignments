@@ -1,0 +1,70 @@
+*{
+    font-family:'Piedra', cursive;
+}
+div#black{
+    background-color: rgb(29, 29, 29);
+}
+div.bg{
+    background-color: rgb(30, 196, 15);
+}
+.nav-link{
+    color: white !important;
+    letter-spacing: 3px;
+    padding-left: 2px;
+}
+.nav-link:hover{
+    background-color: rgb(30, 196, 15) ;
+    border-radius: 20px;
+}
+/* #home{
+    background-color: rgb(30, 196, 15) ;
+    border-radius: 20px;
+} */
+.dropdown-item:active{
+    background-color: rgb(30, 196, 15) !important;
+
+}
+.heading{
+    color: rgb(30, 196, 15);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 5px 3px 5px;
+    box-shadow: 4px 2px 5px black;
+}
+.heading > h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50PX;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px black;
+}
+.card-body{
+    color: #ffff;
+}
+.card-text,.card-text > b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-primary {
+    width: 100%;
+    background-color:rgb(30, 196, 15) !important ;
+    border-color: rgb(30, 196, 15) !important;
+}
+.footer{
+    background-color:rgb(30, 196, 15) ;
+    height: 70px;
+    padding-top: 20px;
+    text-align: center;    
+}
+.about,.about >h3,.about>p{ 
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+}
+.contact-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-bottom: 3px solid rgb(83, 83, 109);
+    width: auto;
+}
